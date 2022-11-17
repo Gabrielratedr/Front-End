@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title> Contato </title>
+
 </head>
 <body>
-    <div>
+    
+    <header class="center">
+        <img class="mf" src="https://projetograel.org.br/wp-content/uploads/2021/05/cropped-logotipo-357x200-1.png" alt="logo pj">
+        <div class="center decoration margin-5 bm mf">
         <ul>
             <a href="index.html"> Página inicial </a>
             <a href="contato.html"> Contato </a>
@@ -15,34 +20,46 @@
             <a href="ajuda.html"> Ajuda </a>
             <a href="atuacao.html"> Atuação </a>
         </ul>
-    </div>
+        </div>
+    </header>
 
-    <div>
+    <div class="container bla">
+    <div class="margin-10 pt-10">
         <ul>
             <h2> CONTATO </h2>
+            <br>
             <p> Para entrar em contato, preencha o formulário ou envie uma mensagem para secretaria@projetograel.org.br. </p>
+            <br>
             <p> Para reclamações, sugestões, solicitações e elogios: faleconosco@projetograel.org.br.</p>
+            <br>
             <p> Assessoria de Comunicação: comunicacao@projetograel.org.br </p>
         </ul>
-        <br>
     </div>
 
-    <div>
+    <div class="mr pt-10">
         <form>
-            <input placeholder="Digite seu nome">
+            <input type="text" id="nome" onkeyup="validaNome()" placeholder="Digite seu nome">
+            <div id="txtNome"></div>
             <br>
-            <input placeholder="Digite o assunto">
+            <input type="text" id="assunto" onkeyup="validaAssunto()" placeholder="Digite o assunto">
             <br>
-            <input placeholder="Digite seu e-mail">
+            <div id="txtAssunto"></div>
             <br>
-            <textarea placeholder="Digite sua mensagem"></textarea>
+            <input type="text" id="email" onkeyup="validaEmail()" placeholder="Digite seu e-mail">
+            <div id="txtEmail"></div>
+            <br>
+            <textarea type="text" id="mensagem" onkeyup="validaMensagem()" placeholder="Digite sua mensagem" rows="6" cols="50"></textarea>
+            <div id="txtMensagem"></div>
             <br>
             <button> Enviar </button>
         </form>
     </div>
+    </div>
 
-    <footer>
+    <footer class="pt-10">
         <p> Todos os direitos reservados &copy; </p>
     </footer>
+    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
