@@ -1,0 +1,62 @@
+.center {
+    text-align: center;
+}
+
+.mf {
+    margin-left: 4%;
+}
+
+.decoration a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.decoration a:hover {
+    color: #B0E0E6;
+}
+
+.margin-5 a{
+    margin: 83px;
+}
+
+.bm {
+    background-color: #F0FFF0;
+    border: 2px solid #016a9e;
+    /* padding: -1%; */
+    box-sizing: border-box;
+    font-size: 20%;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fontsize {
+    font-size: 25px;
+}
+
+.margin-10 {
+    margin-left: 10%;
+}
+
+.pt-10 {
+    padding-top: 10%;
+}
+
+.wh-500 {
+    width: auto;
+    height: 500px;
+}
+
+.tm-social {
+    width: 30px;
+    height: 30px;
+}
+
+.fml {
+    margin-left: 70%;
+}
