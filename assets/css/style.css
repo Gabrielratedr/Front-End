@@ -1,0 +1,39 @@
+/* body {
+    background-color: ;
+} */
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-nav {
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    max-width: 30%;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.padding-nav {
+    padding-top: 7%;
+    margin-left: 38%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.padding-top {
+    padding-top: 10%;
+}
+
+.border-top {
+    border-top: 100%;
+}
+
+.max-width {
+    max-width: 40%;
+}
