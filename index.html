@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Página Inicial</title>
+</head>
+
+<body>
+
+    <header id="topo" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <article>
+                    <img class="logo-nav progress" style="height: 60px; border-radius: 50%;"
+                        src="https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI"
+                        alt="Logo">
+                </article>
+            </div>
+
+            <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+                <a class="navbar-brand" href="#titulo">Título</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#video">Vídeo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#form">Formulário</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#topo">Topo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#redessociais">Redes Sociais</a>
+                  </li>
+                </ul>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+              </nav>
+              
+                
+              </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="container-fluid padding-top border-top">
+        <div class="flex-box">
+            <aside id="titulo">
+                <h2> Título </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eos nobis quae beatae porro,
+                    numquam quos, quam repellat eius unde nisi nihil illum. Odit accusamus praesentium eius voluptatem
+                    quibusdam repellat?</p>
+            </aside>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="http://s2.glbimg.com/jsaPuF7nO23vRxQkuJ_V3WgouKA=/e.glbimg.com/og/ed/f/original/2014/06/10/461777879.jpg"
+                            alt="Imagem Profile">
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="http://s2.glbimg.com/jsaPuF7nO23vRxQkuJ_V3WgouKA=/e.glbimg.com/og/ed/f/original/2014/06/10/461777879.jpg"
+                            alt="Imagem Profile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://rochadvogados.com.br/wp-content/uploads/2019/08/solucoes-pessoas-fisicas.jpg"
+                            alt="Imagem Profile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://www.doc9.com.br/wp-content/uploads/2021/02/contratar-advogado-online.png"
+                            alt="Imagem Profile">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="video" class="text-align-center padding-top">
+            <iframe width="450" height="350" src="https://www.youtube.com/embed/llF6vD-RljE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="flex-box padding-top container-fluid">
+        <form id='form' class="max-width">
+            <h2>IAJYTDFY</h2>
+            <br>
+            <input type="text" id="nome" onkeyup="validaNome()" placeholder="Digite seu nome">
+                <div id="txtNome"></div>
+                <br>
+                <input type="text" id="assunto" onkeyup="validaAssunto()" placeholder="Digite o assunto">
+                <br>
+                <div id="txtAssunto"></div>
+                <br>
+                <input type="text" id="email" onkeyup="validaEmail()" placeholder="Digite seu e-mail">
+                <div id="txtEmail"></div>
+                <br>
+                <textarea type="text" id="mensagem" onkeyup="validaMensagem()" placeholder="Digite sua mensagem"
+                    rows="6" cols="50"></textarea>
+                <div id="txtMensagem"></div>
+                <br>
+                <button> Enviar </button>
+        </form>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">WARNING!!!</h5>
+                <p class="card-text">Não clique! É um vírus!!!.</p>
+                <a href="#" class="btn btn-primary">Não Visitar</a>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="padding-top">
+        <div>
+            <p> Todos os direitos reservados &copy;</p>
+        </div>
+        <article id="redessociais">
+            <a href="https://www.linkedin.com/in/gabrielsjobs/"><img src="assets/img/linkedin.png"
+                    alt="Acesso ao Linkedin"></a>
+            <a href=""><img src="assets/img/twitter.png" alt="Acesso ao Twitter"></a>
+            <a href=""><img src="assets/img/insta.png" alt="Acesso ao Insta"></a>
+        </article>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
